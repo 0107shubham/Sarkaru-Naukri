@@ -1,0 +1,28 @@
+.latest-update {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.scrolling-text-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.scrolling-text {
+  animation: scroll 15s linear infinite;
+}
+
+.scrolling-text.paused {
+  animation-play-state: paused;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
