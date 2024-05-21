@@ -14,11 +14,11 @@ const Navigation = () => {
     { id: 8, name: "Contact us", path: "/" },
   ];
   return (
-    <div className="flex flex-col w-full  bg-purple-300">
+    <div className="flex flex-col w-full  ">
       <Header />
       <ul className="flex  w-full justify-between">
         {navItem.map((eachItem) => (
-          <button className="bg-black  text-[1.9vw] mx-[.2vw] md:mx-[.02vw] py-[.8vw] lg:text-[1.4vw] w-full text-white font-medium">
+          <button className="bg-black  text-[1.9vw] mx-[.2vw] md:mx-[.05vw] py-[.8vw] lg:text-[1.4vw] w-full text-white font-medium">
             <Link key={eachItem.id} to={eachItem.path}>
               {eachItem.name}
             </Link>

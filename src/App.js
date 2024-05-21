@@ -10,6 +10,9 @@ import AnswerKey from "./component/AnswerKey";
 import Syllabus from "./component/Syllabus";
 import LatestJob from "./component/LatestJob";
 import Search from "./component/Search";
+import Verification from "./component/Verification";
+import Admission from "./component/Admission";
+import Important from "./component/Important";
 function App() {
   const router = createBrowserRouter([
     {
@@ -76,6 +79,36 @@ function App() {
         <>
           <Navigation />
           <Search />
+        </>
+      ),
+    },
+
+    {
+      path: "/verification",
+      element: (
+        <>
+          <Navigation />
+          <Verification />
+        </>
+      ),
+    },
+
+    {
+      path: "/important",
+      element: (
+        <>
+          <Navigation />
+          <Important />
+        </>
+      ),
+    },
+
+    {
+      path: "/admission",
+      element: (
+        <>
+          <Navigation />
+          <Admission />
         </>
       ),
     },
