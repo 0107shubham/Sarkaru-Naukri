@@ -325,9 +325,18 @@ const Search = () => {
           </button>
           <p className="text-[2vw] font-medium my-[1vw] ">Popular Searches</p>
           <ul className="flex justify-end  list-decimal text-blue-800 font-medium text-[3vw] lg:text-[2vw]">
-            <li className="mx-[3%] "> SSC </li>
-            <li className="mx-[3%]"> UPSC </li>
-            <li className="mx-[3%]"> Police</li>
+            <li className="mx-[3%] ">
+              {" "}
+              <Link to="/form/1">SSC</Link>
+            </li>
+            <li className="mx-[3%]">
+              {" "}
+              <Link to="/form/1">UPSC</Link>{" "}
+            </li>
+            <li className="mx-[3%]">
+              {" "}
+              <Link to="/form/1">Police</Link>
+            </li>
           </ul>
         </div>
       </div>

@@ -16,13 +16,11 @@ const LatestUpdate = () => {
         Welcome to No. 1 Education Portal Sarkari Result 2024
       </p>
       <p className="text-[1.7vw] lg:text-[1.2vw] text-[#004B91] ">
-        Sarkari Result Android Apps{" "}
+        <Link to="/form/1">Sarkari Result Android Apps</Link>{" "}
         <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">|| </span>
-        Sarkari Result Youtube Channel{" "}
-        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">
-          ||{" "}
-        </span>{" "}
-        Sarkari Result Apple / IOS Apps
+        <Link to="/form/1"> Sarkari Result Youtube Channel </Link>{" "}
+        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">|| </span>{" "}
+        <Link to="/form/1">Sarkari Result Apple / IOS Apps</Link>
         <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">|| </span>
         Follow Instagram
       </p>
