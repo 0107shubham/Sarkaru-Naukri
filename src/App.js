@@ -13,6 +13,7 @@ import Search from "./component/Search";
 import Verification from "./component/Verification";
 import Admission from "./component/Admission";
 import Important from "./component/Important";
+import Contact from "./component/Contact";
 function App() {
   const router = createBrowserRouter([
     {
@@ -109,6 +110,15 @@ function App() {
         <>
           <Navigation />
           <Admission />
+        </>
+      ),
+    },
+
+    {
+      path: "/contact",
+      element: (
+        <>
+          <Contact />
         </>
       ),
     },

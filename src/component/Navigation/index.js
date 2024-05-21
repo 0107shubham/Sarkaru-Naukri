@@ -11,7 +11,7 @@ const Navigation = () => {
     { id: 5, name: "Answer Key", path: "/answerkey" },
     { id: 6, name: "Syllabus", path: "/syllabus" },
     { id: 7, name: "Search", path: "/search" },
-    { id: 8, name: "Contact us", path: "/" },
+    { id: 8, name: "Contact us", path: "/contact" },
   ];
   return (
     <div className="flex flex-col w-full  ">
