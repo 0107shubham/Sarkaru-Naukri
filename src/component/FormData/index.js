@@ -134,10 +134,14 @@ const FormData = () => {
             <p className="text-center text-[#008000] border-black border-b font-bold text-[5vw] lg:text-[4vw]">
               Important Dates
             </p>
-            <ul className="pl-[2vw]  my-[2vw] ">
+            <ul className="pl-[2vw]  my-[2vw] text-[2.4vw] lg:text-[2.1vw] ">
               <li>Application Begin: {item.postDetails.applicationBegin}</li>
               <li>
-                Last Date for Apply Online: {item.postDetails.lastDateToApply}
+                Last Date for Apply Online:
+                <span className="text-red-600 font-medium">
+                  {" "}
+                  {item.postDetails.lastDateToApply}
+                </span>
               </li>
               <li>
                 Last Date Pay Exam Fee: {item.postDetails.payExamFeeLastDate}
@@ -152,7 +156,7 @@ const FormData = () => {
             <p className="text-center  text-[#008000] font-bold text-[5vw]  border-black border-b lg:text-[4vw]">
               Application Fee
             </p>
-            <ul className="pl-[2vw] my-[2vw]">
+            <ul className="pl-[2vw] my-[2vw] text-[2.4vw] lg:text-[2.1vw]">
               <li>General / OBC / EWS: {item.applicationFee.generalObcEws}</li>
               <li>SC / ST / PH: {item.applicationFee.scStPh}</li>
               <li>
@@ -166,7 +170,7 @@ const FormData = () => {
             CRPF Constable Tradesman Notification 2023 Age Limit as on
             01/08/2023
           </p>
-          <ul className="text-[1vw ] my-[2vw] mx-[2vw]">
+          <ul className="text-[2.4vw] lg:text-[2.1vw] my-[2vw] mx-[2vw]">
             <li>Minimum Age: {item.ageLimit.minimumAge}</li>
             <li>Maximum Age (Male): {item.ageLimit.maximumAgeMale}</li>
             <li>Maximum Age (Female): {item.ageLimit.maximumAgeFemale}</li>
