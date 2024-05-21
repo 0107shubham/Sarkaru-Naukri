@@ -14,15 +14,15 @@ const Navigation = () => {
     { id: 8, name: "Contact us", path: "/" },
   ];
   return (
-    <div className="flex flex-col w-full ">
+    <div className="flex flex-col w-full  bg-purple-300">
       <Header />
       <ul className="flex  w-full justify-between">
         {navItem.map((eachItem) => (
-          <Link key={eachItem.id} to={eachItem.path}>
-            <button className="bg-black mx-[.1vw] text-[1.9vw] px-[2vw] lg:text-[.9vw] lg:px-[2vw] lg:py-[.5vw] text-white font-medium">
+          <button className="bg-black  text-[1.9vw] mx-[.05vw] py-[.8vw] lg:text-[1.4vw] w-full text-white font-medium">
+            <Link key={eachItem.id} to={eachItem.path}>
               {eachItem.name}
-            </button>
-          </Link>
+            </Link>
+          </button>
         ))}
       </ul>
     </div>
