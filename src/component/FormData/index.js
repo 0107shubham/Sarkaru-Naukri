@@ -131,7 +131,7 @@ const FormData = () => {
         </p>
         <div className="flex w-full">
           <div className="border-2 border-black w-[50%]">
-            <p className="text-center text-[#008000] border-black border-b font-bold text-[2.6vw] lg:text-[2vw]">
+            <p className="text-center text-[#008000] border-black border-b font-bold text-[5vw] lg:text-[4vw]">
               Important Dates
             </p>
             <ul className="pl-[2vw]  my-[2vw] ">
@@ -149,7 +149,7 @@ const FormData = () => {
             </ul>
           </div>
           <div className="border-2 border-black w-[50%]">
-            <p className="text-center  text-[#008000] font-bold text-[3vw]  border-black border-b lg:text-[2vw]">
+            <p className="text-center  text-[#008000] font-bold text-[5vw]  border-black border-b lg:text-[4vw]">
               Application Fee
             </p>
             <ul className="pl-[2vw] my-[2vw]">
@@ -178,24 +178,24 @@ const FormData = () => {
           <table className="min-w-full border-2 border-black">
             <thead>
               <tr>
-                <th className="py-2 w-[33%] border-black px-4 border-b border-r text-[#008000] font-bold text-[2.6vw] lg:text-[2vw]">
+                <th className="py-2 w-[33%] border-black px-4 border-b border-r text-[#008000] font-bold text-[4vw] lg:text-[3vw]">
                   Post Name
                 </th>
-                <th className="py-2 w-[33%] border-black  px-4 border-b border-r text-[#008000] font-bold text-[2.6vw] lg:text-[2vw]">
+                <th className="py-2 w-[33%] border-black  px-4 border-b border-r text-[#008000] font-bold text-[4vw] lg:text-[3vw]">
                   Total Post
                 </th>
-                <th className="py-2  w-[33%] border-black px-4 border-b text-[#008000] font-bold text-[2.6vw] lg:text-[2vw]">
+                <th className="py-2  w-[33%] border-black px-4 border-b text-[#008000] font-bold text-[4vw] lg:text-[3vw]">
                   Eligibility
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="py-2 px-4 border-black border-b border-r">
+                <td className="py-2 px-4 border-black border-b border-r    text-[3vw] lg:text-[2.4vw]">
                   {item.posts.postName}
                 </td>
                 <td>
-                  <tr className="py-2 px-4  flex flex-col">
+                  <tr className="py-2 px-4  flex flex-col    text-[3vw] lg:text-[2.4vw]">
                     <td className="py-2 px-4 ">GEN: {item.posts.gen}</td>
                     <td className="py-2 px-4 ">SC: {item.posts.sc}</td>
                     <td className="py-2 px-4 ">ST : {item.posts.st}</td>
@@ -203,7 +203,7 @@ const FormData = () => {
                     <td className="py-2 px-4 "> TOTAL : {item.posts.total}</td>
                   </tr>
                 </td>
-                <td className="py-2 px-4 border-black border-b border-l ">
+                <td className="py-2 px-4 border-black border-b border-l   text-[3vw] lg:text-[2.4vw]">
                   {item.posts.eligibility}
                 </td>
               </tr>
