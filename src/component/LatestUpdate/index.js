@@ -1,6 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
+import { Link } from "react-router-dom";
+// import { motion, useAnimation } from "framer-motion";
 
 const LatestUpdate = () => {
+  // const [isHovered, setIsHovered] = useState(false);
+  // const controls = useAnimation();
+
   return (
     <div className="flex flex-col items-center text-blue-700 font-medium">
       <p className="text-black text-[2.1vw] lg:text-[1.4vw]">
@@ -22,59 +27,41 @@ const LatestUpdate = () => {
         Follow Instagram
       </p>
 
-      <marquee
-        behavior="alternate"
-        scrollamount="3"
-        onMouseOver={(e) => {
-          e.target.stop();
-        }}
-        onMouseOut={(e) => {
-          e.target.start();
-        }}
-        className="text-[1.6vw] lg:text-[1.1vw] "
-      >
-        NTA CSIR NET Online Form 2024{" "}
-        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">|| </span>{" "}
-        Bihar STET Admit Card 2024{" "}
-        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">|| </span>{" "}
-        Air Force Group Y Online Form 2024
-      </marquee>
+      <div className="text-[1.6vw] lg:text-[1.1vw] flex">
+        <Link to="/form/1"> NTA CSIR NET Online Form 2024</Link>
+        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">
+          ||{" "}
+        </span>{" "}
+        <Link to="/form/1"> Bihar STET Admit Card 2024</Link>
+        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">
+          ||{" "}
+        </span>{" "}
+        <Link to="/form/1"> Air Force Group Y Online Form 2024</Link>
+      </div>
 
-      <marquee
-        behavior="alternate"
-        scrollamount="3"
-        onMouseOver={(e) => {
-          e.target.stop();
-        }}
-        onMouseOut={(e) => {
-          e.target.start();
-        }}
-        className="text-[1.6vw] lg:text-[1.1vw] "
-      >
-        CBSE Class 12th Result 2024{" "}
-        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">|| </span>{" "}
-        CBSE Board Class 10th Result 2024{" "}
-        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">|| </span>{" "}
-        NTA CUET UG Exam City and Date 2024
-      </marquee>
+      <div className="text-[1.6vw] lg:text-[1.1vw] flex">
+        <Link to="/form/1"> CBSE Class 12th Result 2024 </Link>
+        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">
+          ||{" "}
+        </span>{" "}
+        <Link to="/form/1"> CBSE Board Class 10th Result 2024 </Link>
+        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">
+          ||{" "}
+        </span>{" "}
+        <Link to="/form/1"> NTA CUET UG Exam City and Date 2024</Link>
+      </div>
 
-      <marquee
-        behavior="alternate"
-        scrollamount="3"
-        onMouseOver={(e) => {
-          e.target.stop();
-        }}
-        onMouseOut={(e) => {
-          e.target.start();
-        }}
-        className="text-[1.6vw] lg:text-[1.1vw] "
-      >
-        Haryana Board BSEH 10th Result 2024{" "}
-        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">|| </span> UP
-        CPET Admissions Online Form 2024
-        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">|| </span>{" "}
-        UPSIFS Admissions Online Form 2024
-      </marquee>
+      <div className="text-[1.6vw] lg:text-[1.1vw] flex">
+        <Link to="/form/1"> Haryana Board BSEH 10th Result 2024 </Link>
+        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">
+          ||{" "}
+        </span>{" "}
+        <Link to="/form/1"> CPET Admissions Online Form 2024 </Link>
+        <span className="text-[1.7vw] lg:text-[1.2vw] text-black ">
+          ||{" "}
+        </span>{" "}
+        <Link to="/form/1"> UPSIFS Admissions Online Form 2024</Link>
+      </div>
     </div>
   );
 };

@@ -1,28 +1,16 @@
-.latest-update {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.scrolling-text-container {
-  width: 100%;
-  overflow: hidden;
-}
-
-.scrolling-text {
-  animation: scroll 15s linear infinite;
-}
-
-.scrolling-text.paused {
-  animation-play-state: paused;
-}
-
-@keyframes scroll {
+@keyframes marquee {
   0% {
     transform: translateX(100%);
   }
-  100% {
+  50% {
     transform: translateX(-100%);
   }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.animate-marquee {
+  display: inline-block;
+  animation: marquee 20s linear infinite;
 }

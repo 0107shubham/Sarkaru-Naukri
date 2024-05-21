@@ -1,26 +1,30 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import Header from "../Header";
 
 const Navigation = () => {
   const navItem = [
-    { id: 1, name: "Home" },
-    { id: 2, name: "Latest Jobs" },
-    { id: 3, name: "Results" },
-    { id: 4, name: "Admit Card" },
-    { id: 5, name: "Answer Key" },
-    { id: 6, name: "Syllabus" },
-    { id: 7, name: "Search" },
-    { id: 8, name: "Contact us" },
+    { id: 1, name: "Home", path: "/" },
+    { id: 2, name: "Latest Jobs", path: "/latestjob" },
+    { id: 3, name: "Results", path: "/result" },
+    { id: 4, name: "Admit Card", path: "/admitcard" },
+    { id: 5, name: "Answer Key", path: "/answerkey" },
+    { id: 6, name: "Syllabus", path: "/syllabus" },
+    { id: 7, name: "Search", path: "/search" },
+    { id: 8, name: "Contact us", path: "/" },
   ];
   return (
-    <div className="flex w-full ">
-      {navItem.map((eachItem) => (
-        <p
-          className="bg-black m-[.1vw] py-[1vw] px-[2.03vw] lg:px-[1.9vw] text-[2vw] lg:text-[1vw] text-white font-medium"
-          key={eachItem.id}
-        >
-          {eachItem.name}
-        </p>
-      ))}
+    <div className="flex flex-col w-full ">
+      <Header />
+      <ul className="flex  w-full justify-between">
+        {navItem.map((eachItem) => (
+          <Link key={eachItem.id} to={eachItem.path}>
+            <button className="bg-black mx-[.1vw] text-[1.9vw] px-[2vw] lg:text-[.9vw] lg:px-[2vw] lg:py-[.5vw] text-white font-medium">
+              {eachItem.name}
+            </button>
+          </Link>
+        ))}
+      </ul>
     </div>
   );
 };
