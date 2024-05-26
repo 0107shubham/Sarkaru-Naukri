@@ -1,16 +1,20 @@
-@keyframes marquee {
+@keyframes scroll {
   0% {
-    transform: translateX(100%);
+    transform: translateX(20%);
   }
   50% {
-    transform: translateX(-100%);
+    transform: translateX(-20%);
   }
   100% {
-    transform: translateX(100%);
+    transform: translateX(20%);
   }
 }
 
-.animate-marquee {
+.animate-scroll {
   display: inline-block;
-  animation: marquee 20s linear infinite;
+  animation: scroll 10s linear infinite;
+}
+
+.hover\\:pause-scroll:hover {
+  animation-play-state: paused;
 }
