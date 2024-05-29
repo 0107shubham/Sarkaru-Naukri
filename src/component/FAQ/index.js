@@ -10,32 +10,32 @@ const FAQ = () => {
             (Sarkari Job)
           </p>
         </div>
-        <p className="text-[2vw] mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw] mx-[1vw]">
           The future is uncertain, but a government job, Sarkari Jobs can help
           you secure your future. Click for valuable resources and help from
           Sarkari Result.
         </p>
-        <p className="text-[2vw]   mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           Did you know that over 1.5 million people lost their jobs in August
           2021 in rural and urban India? Yes, the COVID-19 pandemic has hit the
           job market hard. Small businesses and multinationals alike have had to
           reconsider their staffing requirements.
         </p>
-        <p className="text-[2vw]   mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]    mx-[1vw]">
           Are you an unemployed Indian citizen because of the pandemic and
           fluctuating job market?
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           Are you working for a multinational company going through
           restructuring and considering your next steps?
         </p>
-        <p className="text-[2vw]   mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           Are you a recent graduate looking to find your first job?
         </p>
-        <p className="text-[2vw]   mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           Are you wondering if a government job is right for you?
         </p>
-        <p className="text-[2vw]   mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw] ]   mx-[1vw]">
           You've come to the right place! At Sarkari Result, we will show you
           the benefits of an Indian government job and help you to find a
           government job that's stable, long-term, and right for you!
@@ -45,33 +45,33 @@ const FAQ = () => {
         <p className="bg-[#AB183D] text-white text-[2.4vw]  lg:text-[1.8vw] w-full  ">
           Why Should I Consider a Government Job?
         </p>
-        <p className="text-[2vw] mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]  mx-[1vw]">
           In India, a Sarkari Naukri (or an Indian government job) is highly
           sought-after. It's the ultimate career goal, offering long-term
           security, good benefits, and friendly co-workers.
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           More than that, an Indian government job offers an opportunity to live
           a life of purpose.
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]  mx-[1vw]">
           It's a way for you to give back to your community.
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]    lg:text-[1.5vw]  mx-[1vw]">
           According to the Centre for Monitoring Indian Economy Pvt. Ltd.
           (CMIE), the unemployment rate in India increased from 6.5% in November
           2020 to 7.75% in October 2021. In this fluctuating market, there has
           been an increase in the demand for the stability and permanence
           offered by a Sarkari Naukri.
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]  mx-[1vw]">
           In addition, government jobs in India can be pretty lucrative offering
           competitive salaries, benefits, and pensions. Some of the highest-paid
           jobs in the Indian government include the Indian Administrative
           Services (IAS), Indian Foreign Services (IFS), and Indian Police
           Services (IPS).
         </p>
-        <p className="text-2vw  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           Keep in mind that these jobs are also highly competitive with a
           complex application process!
         </p>
@@ -80,7 +80,7 @@ const FAQ = () => {
         <p className="bg-[#AB183D] text-white text-[2.4vw]  lg:text-[1.8vw] w-full">
           What Kind of Government Jobs Can I Get?
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           There are a wide variety of government jobs in India. It depends on
           your interests, but a job in the Indian government can range from
           policy-making, public administration, military, law, engineering, and
@@ -89,7 +89,7 @@ const FAQ = () => {
           salary expectations.
         </p>
         <ol className="text-left list-decimal mx-6">
-          <li className="text-[2vw]  mx-[1vw]">
+          <li className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
             Indian Administrative Services (IAS) and Indian Foreign Services
             (IFS) Jobs: The role of an IAS officer may include advising the
             ministers on various policy issues, implementing policies of the
@@ -99,7 +99,7 @@ const FAQ = () => {
             the world. The starting monthly salary of an IAS or IFS officer is
             about INR 56,100.
           </li>
-          <li className="text-[2vw]  mx-[1vw]">
+          <li className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
             Indian Police Services (IPS) Jobs: A role with the IPS involves
             safeguarding the public, maintaining law and order, and detecting
             and preventing crime. The role can be with the various agencies and
@@ -112,7 +112,7 @@ const FAQ = () => {
             compensation of INR 255,094. This includes tips, bonuses, and
             overtime pay.
           </li>
-          <li className="text-[2vw]  mx-[1vw]">
+          <li className="text-[1.7vw]   lg:text-[1.5vw]  mx-[1vw]">
             Banking Jobs: The banking sector is one of the fastest-growing
             sectors in India. It's not surprising that jobs in
             government-approved banks such as the State Bank of India (SBI),
@@ -128,7 +128,7 @@ const FAQ = () => {
             examinations. The starting monthly salary of a PO is about INR
             57,000 including allowances.
           </li>
-          <li className="text-[2vw]  mx-[1vw]">
+          <li className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
             Defence Jobs: Jobs with the National Defence Academy (NDA) can be in
             various departments, such as Army, Navy, Air Force, Coast Guard,
             etc. A job in the NDA comes with strict restrictions on age,
@@ -149,82 +149,104 @@ const FAQ = () => {
           With All the Competition, How Can I Get a Job Working in the
           Government?
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]  mx-[1vw]">
           It's not easy to stand out in the face of this competition. But by
           following these four steps and with the right resources at your
           disposal, getting that Indian government job will no longer be a mere
           dream.
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]  mx-[1vw]">
           Step 1: Research the Job Requirements at Sarkari Result
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]  mx-[1vw]">
           The first step to getting an Indian government job is knowing what you
           are applying to. To get a job in the Indian government, you need to
           meet several eligibility requirements, keep note of important
           deadlines, pay fees associated with the job application and complete
           the competitive examination.
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]  mx-[1vw]">
           Before you end up rushing around, spend some time going through these
           requirements and understanding them. Rather than going to several
           different websites and getting lost in the mix, Sarkari Result
           provides a one-page summary that shows:
         </p>
-        <ul className="text-left list-disc    mx-[4vw]">
-          <li className="text-[2vw]">Number of Vacancies</li>
-          <li className="text-[2vw]">Important Dates</li>
-          <li className="text-[2vw]">Application Fee</li>
-          <li className="text-[2vw]">Education Eligibility</li>
-          <li className="text-[2vw]">Age Limit</li>
-          <li className="text-[2vw]">Exam Notice</li>
-          <li className="text-[2vw]">Online Application Link</li>
+        <ul className="text-left list-disc text-[1.7vw]   lg:text-[1.5vw]    mx-[4vw]">
+          <li>Number of Vacancies</li>
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">Important Dates</li>
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">Application Fee</li>
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
+            Education Eligibility
+          </li>
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">Age Limit</li>
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">Exam Notice</li>
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
+            Online Application Link
+          </li>
         </ul>
-        <p className="text-[2vw]    mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]     mx-[1vw]">
           This one-page summary is a good way to get all of the information in a
           single easy-to-read format. It's the best resource to help get you
           from Step 1 through to Step 4, all the way to the perfect government
           job in India.
         </p>
-        <p className="text-[2vw]  mx-[1vw]">Eligibility Requirements</p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]  mx-[1vw]">
+          Eligibility Requirements
+        </p>
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           Unlike most private company jobs, government jobs in India need more
           than good interview skills. The eligibility requirements can vary for
           every job, and includes restrictions on the candidate's age,
           educational qualifications, nationality, experience, marital status,
           gender, etc.
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           A job with the IAS/IFS posted in 2021 on Sarkari Result shows a
           one-page summary of all the eligibility requirements including:
         </p>
         <ul className="text-left list-disc    mx-[4vw]">
-          <li className="text-[2vw]">Vacancy for 822 posts,</li>
-          <li className="text-[2vw]">Age limits from 21 to 32 years,</li>
-          <li className="text-[2vw]">
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
+            Vacancy for 822 posts,
+          </li>
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
+            Age limits from 21 to 32 years,
+          </li>
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
             Bachelor's degree education requirements.
           </li>
         </ul>
-        <p className="text-[2vw]  mx-[1vw]">Important Dates</p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
+          Important Dates
+        </p>
+        <p className="text-[1.7vw]   lg:text-[1.5vw]  mx-[1vw]">
           Take note of the deadlines! This is especially important. After all,
           you don't want to miss out on the job of a lifetime because you missed
           the deadline.
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           There are several important dates to note:
         </p>
         <ul className="text-left list-disc   mx-[4vw]">
-          <li className="text-[2vw]">Application Start Date</li>
-          <li className="text-[2vw]">Last Date for Apply Online</li>
-          <li className="text-[2vw]">Last Date Pay Exam Fee</li>
-          <li className="text-[2vw]">
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
+            Application Start Date
+          </li>
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
+            Last Date for Apply Online
+          </li>
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
+            Last Date Pay Exam Fee
+          </li>
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
             Examination Date (or new date if postponed)
           </li>
-          <li className="text-[2vw]">Last Date to Change Exam District</li>
-          <li className="text-[2vw]">Pre Result Available</li>
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
+            Last Date to Change Exam District
+          </li>
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
+            Pre Result Available
+          </li>
         </ul>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           Each job posting on Sarkari Result shows this information in an
           easy-to-read chart, so you'll never miss a deadline!
         </p>
@@ -233,7 +255,7 @@ const FAQ = () => {
         <p className="bg-[#AB183D] text-white text-[2.4vw]  lg:text-[1.8vw] w-full">
           Sarkari Result 2024 : SarkariResult.Com
         </p>
-        <p className="text-[2vw]   mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           India has witnessed a high demand for Government jobs for many
           decades. People prefer Government jobs as their career option
           considering the wide variety of benefits that are associated with
@@ -241,7 +263,7 @@ const FAQ = () => {
           nation, and only a few are lucky to land up with such jobs. People
           tend to take pride in having a Sarkari or Government job.
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           Government jobs hold the kind of authority not found in private jobs.
           These also offer job security for a lifetime, and hence a lot of youth
           prefer them. Getting into a Government job requires a person to go
@@ -256,29 +278,29 @@ const FAQ = () => {
         <p className="bg-[#AB183D] text-white text-[2vw]  lg:text-[1.8vw] w-full">
           How Competitive Is the Government Job Market?
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           There is no doubt that finding an Indian government job is highly
           competitive. The Times of India said it best when they said that the
           numbers are staggering:
         </p>
         <ul className="text-left list-disc   mx-[4vw]">
-          <li className="text-[2vw]  ">
+          <li className="text-[1.7vw]   lg:text-[1.5vw]   ">
             2.3 million applications for 368 peon positions in Uttar Pradesh.
           </li>
-          <li className="text-[2vw]">
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
             2.5 million applications for 6,000 positions in Bengal.
           </li>
-          <li className="text-[2vw]">
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
             200,000 applications for 1,137 positions as police constables in
             Maharashtra.
           </li>
-          <li className="text-[2vw]">
+          <li className="text-[1.7vw]   lg:text-[1.5vw] ">
             When the Ministry of Railways started recruiting for around 63,000
             positions, they received more than 19 million (1.9 crores) job
             applications.
           </li>
         </ul>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]  mx-[1vw]">
           With COVID-19, the competition has only increased because of the drop
           in the number of people hired by the government. The central
           government hired 119,000 people in 2021 which is a reduction in almost
@@ -294,7 +316,7 @@ const FAQ = () => {
         <p className="bg-[#AB183D] text-white text-[2.4vw]  lg:text-[1.8vw] w-full">
           Sarkari Exam for Government Jobs
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]   mx-[1vw]">
           Sarkari or Government exams are conducted for various positions in the
           state as well as central Government. There are various groups in
           Government jobs and candidates can apply for either of these groups,
@@ -311,7 +333,7 @@ const FAQ = () => {
         <p className="bg-[#AB183D] text-white text-[2vw]  lg:text-[1.8vw] w-full">
           Sarkari Result 2023 - 2024
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]  mx-[1vw]">
           All information about Sarkari result and Rojgar results can be found
           on sarkariresult.com. It is now easy to log into sarkariresult.com and
           find out everything that you would want to know about most of the
@@ -319,11 +341,11 @@ const FAQ = () => {
         </p>
       </div>
 
-      <div className="text-center space-y-6 w-full">
+      <div className="text-center  w-full">
         <p className="bg-[#AB183D] text-white text-[2vw]  lg:text-[1.8vw] w-full">
           Sarkari Results for State Level Exams
         </p>
-        <p className="text-[2vw]  mx-[1vw]">
+        <p className="text-[1.7vw]   lg:text-[1.5vw]  mx-[1vw]">
           State Governments conduct various exams, and the Sarkari Result Info
           for all these exams can be found online. Sarkari Results in Bihar for
           all government job exams conducted by the state of Bihar. Similarly,

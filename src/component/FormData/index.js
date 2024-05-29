@@ -131,10 +131,10 @@ const FormData = () => {
         </p>
         <div className="flex w-full">
           <div className="border-2 border-black w-[50%]">
-            <p className="text-center text-[#008000] border-black border-b font-bold  text-[3vw] lg:text-[2.5vw]">
+            <p className="text-center text-[#008000] border-black border-b font-bold  text-[2.5vw] lg:text-[2vw]">
               Important Dates
             </p>
-            <ul className="pl-[2vw]  my-[2vw] text-[2.1vw] lg:text-[1.8vw] ">
+            <ul className="pl-[2vw]  my-[2vw] text-[1.8vw] lg:text-[1.5vw] ">
               <li>Application Begin: {item.postDetails.applicationBegin}</li>
               <li>
                 Last Date for Apply Online:
@@ -153,10 +153,10 @@ const FormData = () => {
             </ul>
           </div>
           <div className="border-2 border-black w-[50%]">
-            <p className="text-center  text-[#008000] font-bold  border-black border-b text-[3vw] lg:text-[2.5vw]">
+            <p className="text-center  text-[#008000] font-bold  border-black border-b text-[2.5vw] lg:text-[2vw]">
               Application Fee
             </p>
-            <ul className="pl-[2vw] my-[2vw]  text-[2.1vw] lg:text-[1.8vw] ">
+            <ul className="pl-[2vw] my-[2vw]   text-[1.8vw] lg:text-[1.5vw] ">
               <li>General / OBC / EWS: {item.applicationFee.generalObcEws}</li>
               <li>SC / ST / PH: {item.applicationFee.scStPh}</li>
               <li>
@@ -166,11 +166,11 @@ const FormData = () => {
           </div>
         </div>
         <div className="border-2 border-black w-full mt-4 ">
-          <p className="text-center text-[#008000] font-bold border-b-2 border-black text-[3vw] lg:text-[2.5vw]">
+          <p className="text-center text-[#008000] font-bold border-b-2 border-black text-[2.5vw] lg:text-[2vw]">
             CRPF Constable Tradesman Notification 2023 Age Limit as on
             01/08/2023
           </p>
-          <ul className=" text-[2.1vw] lg:text-[1.8vw]  my-[2vw] mx-[2vw]">
+          <ul className="  text-[1.8vw] lg:text-[1.5vw]   my-[2vw] mx-[2vw]">
             <li>Minimum Age: {item.ageLimit.minimumAge}</li>
             <li>Maximum Age (Male): {item.ageLimit.maximumAgeMale}</li>
             <li>Maximum Age (Female): {item.ageLimit.maximumAgeFemale}</li>
@@ -182,41 +182,43 @@ const FormData = () => {
           <table className="min-w-full border-2 border-black">
             <thead>
               <tr>
-                <th className="py-[1vw] w-[33%] border-black px-4 border-b border-r text-[#008000] font-bold text-[3vw] lg:text-[2.5vw]">
+                <th className="py-[1vw] w-[33%] border-black px-4 border-b border-r text-[#008000] font-bold text-[2.5vw] lg:text-[2vw]">
                   Post Name
                 </th>
-                <th className="py-[1vw] w-[33%] border-black  px-4 border-b border-r text-[#008000] font-bold text-[3vw] lg:text-[2.5vw]">
+                <th className="py-[1vw] w-[33%] border-black  px-4 border-b border-r text-[#008000] font-bold text-[2.5vw] lg:text-[2vw]">
                   Total Post
                 </th>
-                <th className="py-[1vw] w-[33%] border-black px-4 border-b text-[#008000] font-bold text-[3vw] lg:text-[2.5vw]">
+                <th className="py-[1vw] w-[33%] border-black px-4 border-b text-[#008000] font-bold text-[2.5vw] lg:text-[2vw]">
                   Eligibility
                 </th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td className="py-[1vw] px-[2vw]  border-black border-b border-r    text-[2.1vw] lg:text-[1.8vw] ">
+                <td className="py-[1vw] px-[2vw]  border-black border-b border-r     text-[1.8vw] lg:text-[1.5vw]  ">
                   {item.posts.postName}
                 </td>
                 <td>
-                  <tr className="py-[1vw] px-[2vw]  flex flex-col     text-[2.1vw] lg:text-[1.8vw] ">
-                    <td className="py-[1vw] px-[2vw] ">
+                  <tr className="py-[1vw] px-[2vw]  flex flex-col      text-[1.8vw] lg:text-[1.5vw]  ">
+                    <td className="py-[.5vw] px-[2vw] ">
                       GEN: {item.posts.gen}
                     </td>
-                    <td className="py-[1vw] px-[2vw] ">SC: {item.posts.sc}</td>
+                    <td className="py-[.5vw]  px-[2vw] ">
+                      SC: {item.posts.sc}
+                    </td>
                     <td className="py-[1vw] px-[2vw]  ">
                       ST : {item.posts.st}
                     </td>
-                    <td className="py-[1vw] px-[2vw]  ">
+                    <td className="py-[.5vw] px-[2vw]  ">
                       OBC : {item.posts.obc}
                     </td>
-                    <td className="py-[1vw] px-[2vw] ">
+                    <td className="py-[.5vw]  px-[2vw] ">
                       {" "}
                       TOTAL : {item.posts.total}
                     </td>
                   </tr>
                 </td>
-                <td className="py-2 px-4 border-black border-b border-l    text-[2.1vw] lg:text-[1.8vw] ">
+                <td className="py-2 px-4 border-black border-b border-l    text-[1.8vw] lg:text-[1.5vw] ">
                   {item.posts.eligibility}
                 </td>
               </tr>
