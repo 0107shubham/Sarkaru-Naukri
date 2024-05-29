@@ -9,7 +9,7 @@ import Footer from "../Footer";
 
 const Home = () => {
   return (
-    <div className="px-[2vw] md:px-[0vw]">
+    <div className="px-[.5vw] md:px-[0vw]">
       <Navigation />
       <LatestUpdate />
       <Tool />

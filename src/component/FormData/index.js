@@ -166,11 +166,11 @@ const FormData = () => {
           </div>
         </div>
         <div className="border-2 border-black w-full mt-4 ">
-          <p className="text-center text-[#008000] font-bold border-b-2 border-black text-[2.5vw] lg:text-[2vw]">
+          <p className="text-center text-[#008000] font-bold border-b-2 border-black text-[2.1vw] lg:text-[1.8vw]">
             CRPF Constable Tradesman Notification 2023 Age Limit as on
             01/08/2023
           </p>
-          <ul className="  text-[1.8vw] lg:text-[1.5vw]   my-[2vw] mx-[2vw]">
+          <ul className="    text-[1.8vw] lg:text-[1.4vw]  my-[2vw] mx-[2vw]">
             <li>Minimum Age: {item.ageLimit.minimumAge}</li>
             <li>Maximum Age (Male): {item.ageLimit.maximumAgeMale}</li>
             <li>Maximum Age (Female): {item.ageLimit.maximumAgeFemale}</li>
